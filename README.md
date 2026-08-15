@@ -10,13 +10,13 @@ Steam판 GOD EATER 2 Rage Burst의 비공식 한국어 패치입니다.
 
 [최신 릴리스](https://github.com/Rein-ArXiv/GE2RB-Korean-Patch/releases/latest)에서 환경에 맞는 파일 하나를 받으세요.
 
-- 영어 음성 순정판: `GE2RB_KO_Patch_v1.2.1.zip`
-- Japanese Undub 적용판: `GE2RB_KO_Undub_Addon_v1.2.1.zip`
+- 영어 음성 순정판: `GE2RB_KO_Patch_v1.3.zip`
+- Japanese Undub 적용판: `GE2RB_KO_Undub_Addon_v1.3.zip`
 
 ## 일반판 적용 방법
 
 1. Steam 무결성 검사로 게임을 순정 상태로 만듭니다.
-2. `GE2RB_KO_Patch_v1.2.1` 폴더를 게임 설치 폴더 안에 넣습니다.
+2. `GE2RB_KO_Patch_v1.3` 폴더를 게임 설치 폴더 안에 넣습니다.
 3. 폴더 안의 `apply_patch.bat`을 실행합니다.
 4. 순정 확인, 원본 백업, 패치, 결과 검증이 끝날 때까지 기다립니다.
 
@@ -25,7 +25,7 @@ Steam판 GOD EATER 2 Rage Burst의 비공식 한국어 패치입니다.
 ## Japanese Undub 적용 방법
 
 1. Steam 순정 상태에서 지원되는 Japanese Undub 전체 교체판을 적용합니다.
-2. `GE2RB_KO_Undub_Addon_v1.2.1` 폴더를 게임 설치 폴더 안에 넣습니다.
+2. `GE2RB_KO_Undub_Addon_v1.3` 폴더를 게임 설치 폴더 안에 넣습니다.
 3. `apply_patch_undub.bat`을 실행합니다.
 
 일본어 음성은 유지되며 `data.qpck`, `bin.qpck`, `bin_patch.qpck`의 한국어 텍스트가 적용됩니다. 일반판 한국어 패치와 동시에 사용하지 마세요. 약 30GB의 백업 공간이 필요합니다.
@@ -35,6 +35,18 @@ Steam판 GOD EATER 2 Rage Burst의 비공식 한국어 패치입니다.
 - 일반판: `restore_vanilla.bat` 실행
 - 언덥판: `restore_undub.bat` 실행 또는 `.undub` 백업 세 개를 원래 이름으로 복원
 - 공통: Steam 게임 파일 무결성 검사로 완전 초기화 가능
+
+## v1.3
+
+- Event 컷씬, 아나구라 진행 대화, 캐릭터 에피소드와 미션 무전을 장면·화자·청자 기준으로 재검수
+- 영어의 모호한 `you`는 독일어·프랑스어·이탈리아어 로케일의 단복수·존대 표현과 대조해 판정
+- `source_code_musennpc` 1,455행을 전수 수동 검수하고, 동일 장면의 실제 출력 사본까지 동기화
+- 줄리우스 후일담과 훈련 무전, 시엘·나나·길·리비·그렘·카논·프랑 등 인물별 말투와 호칭 오류 수정
+- `너희는 선택받았어요`, 시점에 맞지 않는 `부대장님` 등 혼합 어체·스토리 시점 오류 수정
+- 아나구라 이동, 터미널·아카이브, 상점, 문 안내문, 캐릭터 생성과 잔여 UI 번역 보완
+- 코우타의 총신 설명과 잔여 장비·스킬·아라가미 용어를 갓 이터 3 및 커뮤니티 표기에 맞춰 정리
+- 비영어 로케일에 잘못 들어간 한국어 사본은 해당 언어 원문으로 복원
+- Japanese Undub판에도 같은 번역을 반영하되 일본어 음성 레코드는 보존
 
 ## v1.2.1
 
